@@ -1,80 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Amos | Computer Science Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="https://s3-symbol-logo.tradingview.com/wockhardt--600.png">
 </head>
 
-<body> <!-- Header -->
-    <header>
-        <h1>John Amos</h1>
-        <p>Computer Science Student | Software Developer</p>
-    </header> <!-- About Me -->
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>Proficient in Python programming language. Knowledgeable in SQL for database management and querying.
-            Experienced in C# programming for building Windows applications. Skilled in web development using MVC
-            frameworks, CSS-Bootstrap, Python-Flask, and jQuery.</p>
-        <h3>Interests</h3>
-        <ul>
-            <li>MMA</li>
-            <li>Reading (Philosophy and Sociology)</li>
-            <li>Basketball</li>
-            <li>Health and Fitness</li>
-            <li>Traveling</li>
-        </ul>
-    </section> <!-- Goals -->
-    <section id="goals">
-        <h2>My Goals</h2>
-        <p>As a student who is dedicated to learning and developing my skills in Computer Science, I have had the
-            opportunity to work both independently and collaboratively on group projects. I have performed well in both
-            scenarios, and I understand the importance of contributing to the team effort.</p>
-        <p>My goal is to become a software developer, and I believe that my skills and knowledge will enable me to
-            achieve this. My desire is to utilise my programming skills to create software that can make a difference in
-            people's lives. I want to build applications that can assist businesses in improving their operations, as
-            well as individuals in improving their daily lives. The potential for software to drive innovation in
-            various industries excites me, and I am eager to contribute to this movement.</p>
-        <p>Web application development, in particular, interests me because of the challenges it presents. Creating
-            responsive and scalable web applications requires a deep understanding of MVC frameworks, and I have gained
-            this understanding through my studies. I am confident in my ability to design clean and efficient code that
-            is easy to maintain, but I also understand that there is always more to learn.</p>
-        <p>In summary, I am a dedicated and driven student who is determined to become a software developer. I want to
-            make a positive impact by using my skills to help others, and I am excited about the potential for software
-            to drive innovation.</p>
-    </section> <!-- Projects -->
-    <section id="projects">
-        <h2>Projects</h2> <!-- Project 1 -->
-        <div class="project">
-            <h3>Project 1 Title</h3>
-            <p>Project description goes here.</p>
-            <p>Technologies used: Python, Flask, Bootstrap</p> <a href="https://github.com/yourusername/project1"
-                target="_blank">View on GitHub</a>
-        </div> <!-- Project 2 -->
-        <div class="project">
-            <h3>Project 2 Title</h3>
-            <p>Project description goes here.</p>
-            <p>Technologies used: C#, .NET, SQL</p> <a href="https://github.com/yourusername/project2"
-                target="_blank">View on GitHub</a>
-        </div> <!-- Add more projects as needed -->
-    </section> <!-- Resume -->
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>Download my resume:</p> <a href="your_resume.pdf" download>Download PDF</a>
-        <!-- Alternatively, you can add an embedded version of your resume -->
-    </section> <!-- Contact -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>If you have any questions or would like to discuss opportunities, please feel free to get in touch with me:
-        </p>
-        <form action="contact_form_handler.php" method="POST"> <label for="name">Name:</label> <input type="text"
-                id="name" name="name" required> <br> <label for="email">Email:</label> <input type="email" id="email"
-                name="email" required> <br> <label for="message">Message:</label> <textarea id="message" name="message"
-                rows="4" required></textarea> <br> <button type="submit">Submit</button> </form>
+<body class="is-preload">
+
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#intro">Welcome</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#goals">My Goals</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#three">Get in Touch</a></li>
+                </ul>
+            </nav>
+        </div>
     </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Intro -->
+        <section id="intro" class="wrapper style1 fullscreen fade-up">
+            <div class="inner">
+                <h1>John Amos</h1>
+                <p>QUT Computer Science Student | Software Developer</p>
+                <ul class="actions">
+                    <li><a href="personal.html" class="button">Learn more</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about-me" class="wrapper style2 spotlights">
+            <section>
+                <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>About Me</h2>
+                        <p>Proficient in Python programming language. Knowledgeable in SQL for database management and
+                            querying. Experienced in C# programming for building Windows applications. Skilled in web
+                            development using MVC frameworks, CSS-Bootstrap, Python-Flask, and jQuery.</p>
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>MMA</li>
+                            <li>Reading (Philosophy and Sociology)</li>
+                            <li>Basketball</li>
+                            <li>Health and Fitness</li>
+                            <li>Traveling</li>
+                        </ul>
+                        <ul class="actions">
+                            <li><a href="personal.html" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Goals -->
+        <section id="goals" class="wrapper style3 fade-up">
+            <div class="inner">
+                <h2>My Goals</h2>
+                <p>As a student who is dedicated to learning and developing my skills in Computer Science, I have had
+                    the opportunity to work both independently and collaboratively on group projects. I have performed
+                    well in both scenarios, and I understand the importance of contributing to the team effort. My goal
+                    is to become a software developer, and I believe that my skills and knowledge will enable me to
+                    achieve this. My desire is to utilise my programming skills to create software that can make a
+                    difference in people's lives.</p>
+                <ul class="actions">
+                    <li><a href="personal.html" class="button">Learn more</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="wrapper style1 fade-up">
+            <div class="inner">
+                <h2>Projects</h2>
+                <p>Here are some of the projects I've worked on. Click on the titles to learn more about each project.
+                </p>
+                <div class="features">
+                    <section>
+                        <span class="icon solid major fa-code"></span>
+                        <h3><a href="#">Project 1</a></h3>
+                        <p>Description of Project 1</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-lock"></span>
+                        <h3><a href="#">Project 2</a></h3>
+                        <p>Description of Project 2</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-cog"></span>
+                        <h3><a href="#">Project 3</a></h3>
+                        <p>Description of Project 3</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-desktop"></span>
+                        <h3><a href="#">Project 4</a></h3>
+                        <p>Description of Project 4</p>
+                    </section>
+                </div>
+                <ul class="actions">
+                    <li><a href="generic.html" class="button">Learn more</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Resume -->
+        <section id="resume" class="wrapper style3 fade-up">
+            <div class="inner">
+                <h2>Resume</h2>
+                <p>Click on the button below to download my resume.</p>
+                <ul class="actions">
+                    <li><a href="resume.pdf" class="button primary fit">Download Resume</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Get in Touch -->
+        <section id="three" class="wrapper style1 fade-up">
+            <div class="inner">
+                <h2>Get in Touch</h2>
+                <p>If you would like to contact me, please use the form below.</p>
+                <div class="split style1">
+                    <section>
+                        <form method="post" action="#">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" />
+                                </div>
+                                <div class="field half">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><a href="" class="button submit">Send Message</a></li>
+                            </ul>
+                        </form>
+                    </section>
+                    <section>
+                        <ul class="contact">
+                            <li>
+                                <h3>Address</h3>
+                                <span>Upper Mount Gravatt, 4122<br />
+                                    Brisbane, Queensland, Austraila<br />
+                            </li>
+                            <li>
+                                <h3>Email</h3>
+                                <span>johnnnamos@gmail.com</span>
+                            </li>
+                            <li>
+                                <h3>Phone</h3>
+                                <span>(+61) 434 061 623</span>
+                            </li>
+                            <li>
+                                <h3>Social</h3>
+                                <ul class="icons">
+                                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon brands fa-linkedin-in"><span
+                                                class="label">LinkedIn</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; John Amos. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
