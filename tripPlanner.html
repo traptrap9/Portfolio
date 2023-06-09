@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Trip Planner</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="icon" href="https://s3-symbol-logo.tradingview.com/wockhardt--600.png">
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">Home</a>
+        <nav>
+            <ul>
+                <li><a href="personal.html">More About Me</a></li>
+                <li><a href="tripPlanner.html" class="active">Trip Planner</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major">Trip Planner</h1>
+                <h2>Collaborative Development of an Integrated Commute Planner</h2>
+                <h3>A Team Experience</h3>
+                <p>
+                    Together with four other team members, we embarked on a collaborative project to create a
+                    comprehensive map routing web application designed to revolutionise the way users plan their
+                    commutes. Our diverse backgrounds and skillsets were harnessed to develop this Java-based
+                    application, focusing on creating a personalised and efficient commute planning system for its
+                    users.
+                </p>
+                <p>
+                    The intent behind our product was not merely to devise a simple route planner, but to provide an
+                    integrated commuting solution that accommodates the specific requirements and preferences of
+                    individual users. Our goal was to make commuting a more seamless, intuitive, and stress-free
+                    experience.
+
+                </p>
+
+                <p>
+                    Our application stands out in its ability to help users pinpoint convenient amenities such as bike
+                    racks and parking spaces, thus allowing them to optimise their commute paths based on their
+                    preferences. For example, a user could plan to drive a portion of their journey, park their vehicle
+                    at a specific location, and then bike the remaining distance.
+
+                </p>
+
+                <p>
+                    Beyond the daily commute, we designed the application to provide users with valuable insights when
+                    considering potential future relocations. By visualising the impact of a new location on their
+                    commuting patterns, our users are equipped to make informed, strategic decisions. Our application,
+                    thus, recognises the complexities of modern commuting and offers personalised solutions that fit the
+                    unique needs of each user.
+                </p>
+
+                <div class="image-container">
+                    <span class="image"><img src="images/ui.png" alt="" /></span>
+                    <span class="image"><img src="images/map.png" alt="" /></span>
+                </div>
+
+
+                <h2>Adopting Agile Practises</h2>
+                <h3>User Stories, Story Points, MoSCoW, and Documentation</h3>
+                <h4>Formulating and Prioritising User Stories</h4>
+                <p>By implementing user stories, a technique inherent to Agile methodologies, we represented use cases
+                    from the viewpoint of the end-user. This method ensured that our focus always remained on the needs
+                    of the user. To gauge the effort required for each user story, we employed story points, allowing us
+                    to quantify the complexity of tasks and prioritise them effectively. Furthermore, the MoSCoW method
+                    helped us categorise these user stories based on their importance and urgency, streamlining our
+                    decision-making process when deciding which features to include in each sprint.</p>
+
+                <h4>Documentation and Team Collaboration</h4>
+                <p>To maintain clear communication and alignment within the team, we held weekly meetings where we
+                    assessed our progress, addressed challenges, and planned for upcoming tasks. The outcomes and key
+                    decisions from these meetings were meticulously documented and stored in our project's GitHub wiki.
+                    The practice of thorough documentation was followed throughout the project, where every step from
+                    initial planning to final implementation was recorded in detail, serving as a reference guide and a
+                    blueprint for future enhancements. Utilising GitHub's wiki feature allowed us to maintain a single,
+                    organised, and accessible source of truth for all our project information.</p>
+
+                <p>These practices played a crucial role in facilitating effective project management, enhancing
+                    collaboration, and ensuring a user-centric focus in our development process.</p>
+
+                <div class="image-container">
+                    <div class="image"><img src="images/tasks.png" alt="" /></div>
+                    <div class="image"><img src="images/usChart.png" alt="" /></div>
+                    <div class="image"><img src="images/musthaves.png" alt="" /></div>
+                    <div class="image"><img src="images/github.png" alt="" /></div>
+                </div>
+                <p>96 user stories*</p>
+
+                <h2>Backend Architecture</h2>
+                <h3>Leveraging Spring Boot, Thymeleaf, and OpenTripPlanner in our Map Routing Application</h3>
+
+                <p>Spring Boot, our chosen framework, offered powerful functionality and simplified the setup of our
+                    Spring application. Its embedded server eased deployment, and auto-configuration reduced manual
+                    setup work. Moreover, dependency management facilitated integration with other tools, like Thymeleaf
+                    and OTP.</p>
+
+                <h4>Thymeleaf: Enhancing Development and Debugging</h4>
+                <p>Thymeleaf, our server-side Java template engine, allowed for natural templating and direct viewing of
+                    templates in browsers, improving our development and debugging processes. Its seamless integration
+                    with Spring enabled us to use the Spring Expression Language (SpEL) for dynamic content in our HTML
+                    templates.</p>
+
+                <h4>OpenTripPlanner: Powering Multi-modal Trip Planning</h4>
+                <p>OpenTripPlanner (OTP), an open-source software, provided extensive functionality for multi-modal trip
+                    planning, vital to our application's main feature - personalised commute routes. Its powerful API
+                    allowed us to handle complex geographical and transportation data, resulting in optimal route
+                    recommendations tailored to user needs.</p>
+
+                <h4>Combining Technologies for a Robust Backend API</h4>
+                <p>By integrating these technologies, we created a robust backend API supporting our application's
+                    complex functionality and ensuring a streamlined development process. The combination of Spring
+                    Boot, Thymeleaf, and OTP helped us maintain good programming practices and offered customisation to
+                    meet our project's specific needs.</p>
+
+                <div class="image-container">
+                    <div class="image"><img src="images/techdetails.png" alt="" /></div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; John Amos. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

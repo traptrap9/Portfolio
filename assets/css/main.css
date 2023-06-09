@@ -55,6 +55,40 @@
 	margin-bottom: 10px;
 }
 
+.image-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.image {
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.image img {
+	max-width: 100%;
+	height: auto;
+}
+
+.image-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+	/* Increase minimum column width to 500px */
+	gap: 20px;
+	justify-items: center;
+	align-items: center;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	max-height: 400px;
+	/* Increase maximum image height to 400px */
+}
+
+
 
 html,
 body,
