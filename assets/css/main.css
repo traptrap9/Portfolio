@@ -1,10 +1,60 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+#experience {
+	padding: 20px;
+}
+
+.job {
+	margin-bottom: 20px;
+}
+
+.job h2 {
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+.job h3 {
+	font-size: 1.2em;
+	color: grey;
+}
+
+.job h4 {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+.job ul {
+	margin: 0;
+	padding: 0;
+}
+
+.job ul li {
+	margin-bottom: 10px;
+}
+
+#education {
+	padding: 20px;
+}
+
+.education-entry {
+	margin-bottom: 20px;
+}
+
+.education-entry h2 {
+	font-size: 1.5em;
+	margin-bottom: 0;
+}
+
+.education-entry h3 {
+	font-size: 1.2em;
+	color: grey;
+}
+
+.education-entry h4 {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
 
 html,
 body,
