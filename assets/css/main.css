@@ -88,6 +88,17 @@
 	/* Increase maximum image height to 400px */
 }
 
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+
+.grid-item {
+	padding: 20px;
+	font-size: 14px;
+}
+
 
 
 html,

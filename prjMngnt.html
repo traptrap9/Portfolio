@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Project Managment System</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="icon" href="https://s3-symbol-logo.tradingview.com/wockhardt--600.png">
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">Home</a>
+        <nav>
+            <ul>
+                <li><a href="personal.html">More About Me</a></li>
+                <li><a href="tripPlanner.html">Trip Planner</a></li>
+                <li><a href="prjMngnt.html" class="active">Project Managment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major">Project Managment System</h1>
+                <span class="image fit"><img src="images/A3.png" alt="" /></span>
+                <h2>Introduction</h2>
+                <p>I have crafted an innovative and powerful task management system, built from the ground up to
+                    assist both individuals and teams in streamlining their work processes and enhancing their
+                    productivity. This system serves as a robust platform where users can organise, track, and manage
+                    their tasks with ease. The system is designed to accommodate the input of tasks, the establishment
+                    of dependencies between them, and the assignment of time estimates for each task. This structure
+                    offers a highly organised, visual representation of tasks, allowing users to manage their workload
+                    effectively. Developed using the versatile C# programming language, the system offers superior
+                    performance and reliability.</p>
+
+                <h2>Use of Algorithms and Discrete Structures</h2>
+                <p>The backbone of the task management system is a directed acyclic graph (DAG). Here, tasks are modeled
+                    as nodes and task dependencies as directed edges. To calculate a valid task sequence respecting
+                    dependencies, I employ topological sorting. Additionally, the earliest commencement time (ECT) for
+                    each task, which depends on the completion of preceding tasks, is determined through this model. The
+                    combination of graph theory and advanced algorithms delivers a visually intuitive and
+                    high-performing system.</p>
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <h4>Task Creation and Estimation</h4>
+                        <p>Users can create tasks by providing the necessary information: task name, time estimate, and
+                            dependencies (if any). The time estimate represents the approximate time it will take to
+                            complete the task.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Task Dependencies</h4>
+                        <p>The system allows users to set dependencies between tasks. If Task A depends on Task B, it
+                            means Task A cannot start until Task B is completed. Users can set multiple dependencies for
+                            a task.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Task Scheduling</h4>
+                        <p>Once tasks and their dependencies have been input, the system calculates a valid sequence for
+                            performing the tasks. This sequence ensures that all tasks are performed in an order that
+                            respects the set dependencies.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Earliest Commencement Time</h4>
+                        <p>The system calculates the earliest commencement time (ECT) for each task based on its
+                            dependencies. The ECT of a task is the earliest time at which the task can begin,
+                            considering the completion time of its dependencies.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>Task Report</h4>
+                        <p>The system generates a report containing all tasks in their suggested order of execution,
+                            along with their ECTs. The report is downloadable in CSV format, which can be opened in any
+                            spreadsheet software for further analysis or printing.</p>
+                    </div>
+                    <div class="grid-item">
+                        <h4>CSV File Support</h4>
+                        <p>The task management system allows for importing tasks from a CSV file and exporting tasks to
+                            a CSV file. This provides an efficient way for users to bulk input tasks and dependencies,
+                            and to save and share their task schedules.</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <a href="https://github.com/traptrap9/ProjectMangement" target="_blank" class="button">
+                        GitHub
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; John Amos. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
