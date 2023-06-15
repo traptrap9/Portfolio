@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Empirical Analysis of a Binary Search Tree-based Movie Collection</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <link rel="icon" href="https://s3-symbol-logo.tradingview.com/wockhardt--600.png">
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">John Amos</a>
+        <nav>
+            <ul>
+                <li><a href="personal.html">More About Me</a></li>
+                <li><a href="tripPlanner.html">Trip Planner</a></li>
+                <li><a href="prjMngnt.html">Project Managment</a></li>
+                <li><a href="prjMngnt.html">Event Manager Website</a></li>
+                <li><a href="prjMngnt.html" class="active">Analysis of a BST based Movie Collection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1>Empirical Analysis of a Binary Search Tree-based Movie Collection</h1>
+
+
+                <h3>Project Overview:</h3>
+                <p>This project showcases a deep-dive analysis into the efficiency of a Binary Search Tree (BST)-based
+                    movie collection implementation. I designed an experiment to study the algorithmic efficiency of a
+                    specific method in the application, specifically the method calculating the total number of DVDs in
+                    the collection. The project incorporated elements of both software development and data analysis,
+                    resulting in a detailed report showcasing the algorithmic understanding and analytical capabilities.
+                </p>
+
+                <h3>Building the BST-based Movie Collection:</h3>
+                <p>The first step in this project was the creation of a Binary Search Tree (BST) to represent a movie
+                    collection. Each node of the BST held a movie title and the number of available copies. The BST was
+                    constructed in a way to handle operations like adding movies, searching for a specific movie, and
+                    calculating the total number of DVDs in the collection.</p>
+
+                <h3>Analyzing Traversal Algorithm Efficiency in Binary Search Trees</h3>
+                <p>In this project, I explored the efficiency of the traversal algorithm used to calculate the total
+                    number of DVDs in a binary search tree (BST). I generated various BSTs (balanced, unbalanced,
+                    random, sorted) and measured the performance of the 'NoDVDs' method in different scenarios. The
+                    performance analysis was based on operation counts collected over multiple iterations, which
+                    allowed me to compute an average count for each tree type and size. This comprehensive study
+                    verified the theoretical time complexity of the 'NoDVDs' method and provided valuable insights into
+                    its behavior under different conditions. The analysis was visualised using graphs and data tables
+                    for a clear comparison.</p>
+
+
+                <h3>Designing and Conducting the Experiment:</h3>
+                <p>The core focus of the project was to analyse the NoDVDs method, which calculates the total number of
+                    DVDs in the collection. The experimental setup involved creating BSTs of varying sizes (1000 to
+                    10000 nodes), and types (Random, Balanced, Unbalanced, Sorted). The NoDVDs method was called
+                    multiple times for each tree, and the number of operations (visiting a node) was recorded.</p>
+                <span class="image fit" style="display: flex; justify-content: center;">
+                    <img src="images/bst.png" style="width: 30%;" alt="" />
+                </span>
+
+
+                <h3>Empirical Data Analysis:</h3>
+                <p>Upon collecting the data, the average operation count for each tree size and type was calculated.
+                    This data was then used to perform an empirical analysis. The key metrics used were the average
+                    operation count and the ratio between operation counts for different tree sizes. The analysis aimed
+                    to provide an empirical basis for confirming the theoretical time complexity of the NoDVDs method.
+                </p>
+                <span class="image fit" style="display: flex; justify-content: center;">
+                    <img src="images/table.png" style="width: 50%;" alt="" />
+                </span>
+
+
+                <h3>Validating Theoretical Assertions:</h3>
+                <p>The theoretical time complexity for the NoDVDs method was found to be O(n), with n being the number
+                    of nodes in the BST. My empirical data analysis supported this theoretical assertion, showcasing a
+                    linear relationship between the tree size and the operation count. This provided a practical
+                    validation for the theoretical understanding of the algorithm's efficiency.</p>
+
+                <h3>Visualisation and Interpretation:</h3>
+                <p>The data from the empirical analysis was visualised using graphs, which were further used to
+                    interpret and confirm the empirical findings. The visual representation offered a clear picture of
+                    how the operation count scaled with the tree sise and allowed easy comparison between different tree
+                    types.</p>
+                <div style="display: flex; justify-content: space-between;">
+                    <span class="image fit" style="width: 45%;"><img src="images/math.png" alt="" /></span>
+                    <span class="image fit" style="width: 45%;"><img src="images/graph.png" alt="" /></span>
+                </div>
+
+                <p>In conclusion, this project reflects a comprehensive understanding of binary search trees, algorithm
+                    analysis, and the importance of validating theoretical results with empirical data. It showcases the
+                    ability to implement complex data structures, design and conduct experiments, perform data analysis,
+                    and interpret results in a meaningful way.</p>
+
+                <div class="button-container">
+                    <a href="https://github.com/traptrap9/BST" target="_blank" class="button">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; John Amos. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
